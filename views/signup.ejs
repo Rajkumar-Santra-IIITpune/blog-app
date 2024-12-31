@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 flex justify-center items-center min-h-screen">
+    <!-- Main Container -->
+    <div class="sm:w-full max-w-md p-8 bg-white rounded-lg shadow-lg">
+        <!-- Logo -->
+        <div class="text-center">
+            <img class="mx-auto h-12 w-auto" 
+                 src="data:image/jpeg;base64,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" 
+                 alt="Company Logo">
+            <!-- Content -->
+            <h2 class="text-center text-2xl font-semibold text-gray-800 mb-4">Welcome Back</h2>
+            <p class="text-center text-gray-600 mb-6">Sign in to access your account</p>
+        </div>
+
+        <!-- Form -->
+        <form action="/welcome" method="POST" class="space-y-4" novalidate>
+            <!-- Email Input -->
+            <div class="text-left">
+                <label for="email" class="text-sm font-medium text-gray-700">Email</label>
+                <input type="email" id="email" name="email" 
+                       class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                       placeholder="Enter your email" 
+                       aria-label="Email address" 
+                       autocomplete="email" required>
+            </div>
+
+            <!-- Password Input -->
+            <div class="text-left">
+                <label for="password" class="text-sm font-medium text-gray-700">Password</label>
+                <input type="password" id="password" name="password" 
+                       class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                       placeholder="Enter your password" 
+                       aria-label="Password" 
+                       autocomplete="current-password" required>
+            </div>
+
+            <!-- Remember Me -->
+            <div class="flex items-center justify-between">
+                <label class="flex items-center">
+                    <input type="checkbox" 
+                           class="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500"
+                           aria-label="Remember me">
+                    <span class="ml-2 text-sm text-gray-600">Remember me</span>
+                </label>
+                <a href="#" class="text-sm text-indigo-600 hover:text-indigo-500" aria-label="Forgot your password?">Forgot password?</a>
+            </div>
+
+            <!-- Submit Button -->
+            <div>
+                <button type="submit" 
+                        class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50">
+                    Sign In
+                </button>
+            </div>
+        </form>
+
+        <!-- Footer Links -->
+        <p class="text-center text-sm text-gray-600 mt-6">
+            Don't have an account? 
+            <a href="#" class="text-indigo-600 hover:text-indigo-500 font-medium">Sign up</a>
+        </p>
+    </div>
+</body>
+</html>

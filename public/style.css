@@ -1,0 +1,12 @@
+.icons{
+    display:flex;
+     width:auto;
+    justify-content: space-between;
+}
+.icons>a>i{
+    margin:5px;
+    outline: none;
+}
+.icons>a>i:hover{
+    text-decoration:underline;
+}
